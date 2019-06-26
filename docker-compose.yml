@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  rpcserverdemo:
+    image: ${DOCKER_REGISTRY-}rpcserverdemo
+    build:
+      context: .
+      dockerfile: RpcServerDemo/Dockerfile
+
+  rpcclientdemo:
+    image: ${DOCKER_REGISTRY-}rpcclientdemo
+    build:
+      context: .
+      dockerfile: RpcClientDemo/Dockerfile
+    depends_on:
+      - rpcserverdemo
+

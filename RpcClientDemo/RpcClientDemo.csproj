@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\sofa-bolt-csharp-test\sofa-bolt-csharp-test.csproj" />
+    <ProjectReference Include="..\sofa-bolt-csharp\sofa-bolt-csharp.csproj" />
+  </ItemGroup>
+
+</Project>
