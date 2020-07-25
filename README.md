@@ -17,7 +17,7 @@ Bolt 名字取自迪士尼动画-闪电狗，是一个基于 Netty 最佳实践�
 目前该产品已经运用在了蚂蚁中间件的微服务 ([SOFARPC](https://github.com/sofastack/sofa-rpc))、消息中心、分布式事务、分布式开关、以及配置中心等众多产品上。
 
 # 2. 功能介绍
-![intro](.middleware-common/intro.png)
+![intro](https://github.com/sofastack/sofa-bolt/raw/master/.middleware-common/intro.png)
 
 ## SOFABolt　的基础功能包括：
 * 基础通信功能 ( remoting-core )
@@ -42,21 +42,21 @@ Bolt 名字取自迪士尼动画-闪电狗，是一个基于 Netty 最佳实践�
 将 SOFABolt 用作一个远程通信框架，使用者可以不用关心如何实现一个私有协议的细节，直接使用我们内置的 RPC 通信协议。可以非常简单的启动客户端与服务端，同时注册一个用户请求处理器，即可完成远程调用。同时，像连接管理、心跳等基础功能特性都默认可以使用。
 当前支持的调用类型如下图所示：
 
-![invoke_type](.middleware-common/invoke_types.png)
+![invoke_type](https://github.com/sofastack/sofa-bolt/raw/master/.middleware-common/intro.png)
 
 * 示例 Demo 请参考我们的 [用户手册](https://github.com/sofastack/sofa-bolt/wiki/SOFA-Bolt-Handbook#14-%E5%9F%BA%E7%A1%80%E9%80%9A%E4%BF%A1%E6%A8%A1%E5%9E%8B)
 
 ## 用法2
 将 SOFABolt 用作一个协议框架，使用者可以复用基础的通信模型、协议包含的接口定义等基础功能。然后根据自己设计的私有协议自定义 Command 类型、Command 处理器、编解码处理器等。如下图所示，RPC 和消息的 Command 定义结构：
 
-![msg_protocol](.middleware-common/msg_protocol.png)
+![msg_protocol](https://github.com/sofastack/sofa-bolt/raw/master/.middleware-common/msg_protocol.png)
 
 # 4. 如何贡献
 开放代码允许在签署协议之后,提交贡献代码.
-具体参考[如何参与贡献 SOFABolt 代码](./CONTRIBUTING.md)
+具体参考[如何参与贡献 SOFABolt 代码](https://github.com/sofastack/sofa-bolt/raw/master/CONTRIBUTING.md)
 
 # 5. 版权协议
-对 SOFABolt 代码的修改和变更，需要遵守[版权协议](./LICENSE)
+对 SOFABolt 代码的修改和变更，需要遵守[版权协议](https://github.com/sofastack/sofa-bolt/raw/master/LICENSE)
 
 # 6. 多语言
 
